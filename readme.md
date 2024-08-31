@@ -29,7 +29,7 @@ If you want to showcase the components to get an idea of how they look and what 
     localhost:4000
     ```
 
-3. **View the Components**: This will run the `index.html` file and display the components.
+3. **View the Components**: This will run the `index.html` file and display the components you have included there.
 
 ## Example
 
