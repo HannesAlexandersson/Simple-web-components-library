@@ -4,15 +4,17 @@ Please include a summary of the changes and the related issue. Also, describe an
 
 ## Related Issue
 
-Please link to the issue you are addressing (if applicable).
+Please link to the issue you are addressing (if applicable). You can link issues by starting with a '#' followed by the issue number. 
 
-## How to Test
+## How Has This Been Tested?
 
-Provide any steps or instructions needed to test your changes. Include any necessary information or screenshots.
+Describe the tests that were performed to verify the changes. The minimum required test is that you have run it locally and tested it yourself in the browser.
 
 ## Checklist
 
-- [ ] My code follows the code style of this project.
+- [ ] My code follows the style guidelines of this project.
+- [ ] I have performed a self-review of my code.
+- [ ] I have commented my code, particularly in hard-to-understand areas.
 - [ ] I have tested my changes and confirmed that they work.
 - [ ] I have updated the documentation (if necessary).
 
