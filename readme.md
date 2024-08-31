@@ -16,7 +16,7 @@ As a student at Yrgo's web-developer class we are tasked to make contributions t
 
 Atm there are no dependencies attached to this project. So in other words there is no installation needed.
 
-## showcasing the components
+## Showcasing the components
 
 If you want to showcase the components to get an idea of how they look and what they do you can run them locally. After you have forked and cloned the repo you can start an development server on you local machine in your prefered way. I'll provide one way of doing it: 
 
