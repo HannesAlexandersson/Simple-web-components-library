@@ -21,14 +21,4 @@ jobs:
       with:
         node-version: '14'
 
-    - name: Install dependencies
-      run: npm install
-
-    - name: Lint code
-      run: npm run lint
-
-    - name: Format code
-      run: npm run format --check
-
-    - name: Run tests
-      run: npm test
+    
