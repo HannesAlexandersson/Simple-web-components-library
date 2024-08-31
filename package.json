@@ -1,0 +1,12 @@
+{
+  "name": "simple-web-components-library",
+  "version": "1.0.0",
+  "description": "This is an open-source collection of reusable web components built using HTML, CSS, and JavaScript. The goal is to provide a library of customizable components for developers to use in their projects and to encourage developers to contribute to open source. Contributors are welcome to submit their own components!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
