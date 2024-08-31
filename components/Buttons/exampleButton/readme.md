@@ -11,15 +11,51 @@ Here you can (if needed) describe how to use the component. If it requires some 
 
 ### Example documentation
 
-## exampleButton
+# Example Button Component
 
 ## Description
-The Example Button is a simple button component with blue background and white text. It have css that transforms the scale to .95 when clicked. It have a simple click-handler attached in the JS that writes "Button clicked!" to the console when clicked.
 
-## Usage
-No special action required to use this component. All you need to do is to include the component in your html aswell as the css in your prefered way. Include the css either by include the whole stylesheet: 
+The Example Button is a simple button component with a blue background and white text. It includes CSS that scales the button down to 95% when clicked. A simple click handler is attached in the JS file that shows an alert saying "Button clicked!" when the button is clicked.
+
+## Usage Instructions
+
+To use this component:
+
+1. **Include the HTML**:
+    ```html
+    <button class="example-button">Click Me</button>
+    ```
+
+2. **Include the CSS**:
+    Link the CSS file in your HTML:
+    ```html
+    <link rel="stylesheet" href="./components/Buttons/exampleButton/exampleButton.css">
+    ```
+    Alternatively, you can copy the CSS and paste it into your own stylesheet.
+
+3. **Include the JavaScript**:
+    Add the JavaScript file in your HTML:
+    ```html
+    <script src="./components/Buttons/exampleButton/exampleButton.js"></script>
+    ```
+
+## Example Integration
+
+Here’s a complete example integrating the Example Button component:
+
 ```html
-<link rel="stylesheet" href="./components/Buttons/exampleButton/exampleButton.css">
-```
-
-or by copy the css from the stylesheet and paste into your own stylesheet.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Components Library</title>
+    <link rel="stylesheet" href="./components/Buttons/exampleButton/exampleButton.css">
+</head>
+<body>
+    <h1>Simple Web Components Library</h1>
+    <h2>Example Button Component</h2>
+    <button class="example-button">Click Me</button>
+    <script src="./components/Buttons/exampleButton/exampleButton.js"></script>
+</body>
+</html>

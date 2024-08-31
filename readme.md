@@ -19,19 +19,22 @@ Atm there are no dependencies attached to this project. So in other words there 
 ## showcasing the components
 
 If you want to showcase the components to get an idea of how they look and what they do you can run them locally. After you have forked and cloned the repo you can start an development server on you local machine in your prefered way. I'll provide one way of doing it: 
-1. start a server with the following command in your CLI: 
-```bash
-php -S localhost:4000
-```
-2. Open a browser and enter the url:
- ```bash 
- localhost:4000 
- ```
-3. This will run the index.html file in your browser
+
+1. **Start a Server**: Run the following command in your CLI to start a local development server:
+    ```bash
+    php -S localhost:4000
+    ```
+2. **Open in Browser**: Navigate to the following URL in your browser:
+    ```plaintext
+    localhost:4000
+    ```
+
+3. **View the Components**: This will run the `index.html` file and display the components.
 
 ## Example
 
-The exampleButton in the Buttons folder is an example that provides an template of the intended filestructure. It demonstrates basic styling and interaction and how to showcase the components in the [index.html] file. 
+The `exampleButton` in the `Buttons` folder serves as a template to demonstrate the intended file structure. It shows basic styling and interaction and how to showcase the component in the `index.html` file.
+
 
 Its located at 
 ```css
@@ -86,11 +89,11 @@ For each component, you can include a README file or other documentation directl
 ## How to Contribute
 
 1. Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
-2. Look at the open issues and select one labeled "good first issue" to start with.
+2. Look at the open issues and select one. Issues labeled "good first issue" is always good issues to start with if you are new to open source.
 
 ## License
 
 This project is licensed under the MIT License.
 
 #### IMPORTANT
-It isnt the quality or style or even functionality that matters in this project. We are NOT aiming to build the best and coolest component library. Whats important is that anybody should learn and get the confidence to start contributing to open source. And also please keep in mind that I am also very much in a learning state. I have never done this before, not started a component library nor have I ever opened up a repo for contributions. So there might be things that isnt best practice or even plain  out bad ideas in this repo. But the good thing is that then if you find anything you think should be changed YOU yourself can contribute by letting me know!
+It isn’t the quality, style, or even functionality that matters in this project. We are **NOT** aiming to build the best and coolest component library. What's important is that anybody should learn and gain confidence to start contributing to open source. Please keep in mind that I am also very much in a learning state. I have never started a component library nor opened up a repo for contributions before. There might be things that aren’t best practices or could be improved. If you find something that should be changed, please contribute by letting me know!
