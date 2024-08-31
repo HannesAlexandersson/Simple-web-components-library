@@ -1,0 +1,27 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.subHeader{
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/*remove 'showcase' element if needed*/
+.showcaseBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+}

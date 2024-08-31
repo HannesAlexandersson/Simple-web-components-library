@@ -2,6 +2,8 @@
 
 Thank you for your interest in contributing to the Simple Web Components Library! We welcome all kinds of contributions, whether it's adding new components, improving existing ones, or enhancing documentation. As stated in the [readme](readme.md) this project is mainly for new developers that want to get hand on experience with open source, but we of course doesn't stop anyone no matter how experienced they are to contribute! Please read our [Code of Conduct](CODE-OF-CONDUCT.md) before contributing.
 
+Contributions can include new components, improvements to existing ones, or enhancements to documentation.
+
 ## How to Contribute
 
 ### 1. Fork and Clone the Repository
@@ -27,23 +29,27 @@ Before making any changes, create a new branch for your work:
 git checkout -b your-branch-name
 ```
 
-Choose a descriptive branch name that reflects the work you're doing, such as add-button-component or fix-modal-bug.
+Choose a descriptive branch name that reflects the work you're doing, such as `add-button-component` or `fix-modal-bug`.
 
 ### 3. Add a New Component
 
 1. Navigate to the /components folder.
-2. Create a new folder with the name of your component (e.g., Button).
-3. Inside your component folder, create the following files:
-- `ComponentName.html`: Contains the HTML structure.
-- `ComponentName.css`: Contains the styling for the component.
-- `ComponentName.js`: Contains the JavaScript functionality.
+2. Check for already existing component type folder. For ex if you are adding a button, check for a Buttons folder. If it exists then navigate to that folder and in other case create a new folder.
+```bash
+mkdir /components/Buttons
+```
+3. Create a new folder with the name of your component (e.g., exampleButton).
+4. Inside your component folder, create the following files (use your own component name):
+- `exampleButton.html`: Contains the HTML structure.
+- `exampleButton.css`: Contains the styling for the component.
+- `exampleButton.js`: Contains the JavaScript functionality.
 
 Example structure:
 ```css
-/components/Button
-├── Button.html
-├── Button.css
-└── Button.js
+/components/Buttons/exampleButton
+├── exampleButton.html
+├── exampleButton.css
+└── exampleButton.js
 ```
 
 4. Follow these guidelines:
@@ -88,7 +94,7 @@ git push origin your-branch-name
 
 ### 7. Address Feedback
 
-A project maintainer will review your pull request. You might be asked to make changes or improvements. Please address the feedback and push any updates to your branch. A big part of open source is to communicate via github (or the likes of). 
+A project maintainer (me) will review your pull request. You might be asked to make changes or improvements. Please address the feedback and push any updates to your branch. A big part of open source is to communicate via github (or the likes of). 
 
 ### Coding Standards
 - Indentation: Use 2 spaces for indentation.
