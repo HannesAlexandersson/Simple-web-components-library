@@ -1,6 +1,6 @@
 # Contributing to Simple Web Components Library
 
-Thank you for your interest in contributing to the Simple Web Components Library! We welcome all kinds of contributions, whether it's adding new components, improving existing ones, or enhancing documentation.
+Thank you for your interest in contributing to the Simple Web Components Library! We welcome all kinds of contributions, whether it's adding new components, improving existing ones, or enhancing documentation. As stated in the [readme](readme.md) this project is mainly for new developers that want to get hand on experience with open source, but we of course doesn't stop anyone no matter how experienced they are to contribute! Please read our [Code of Conduct](CODE-OF-CONDUCT.md) before contributing.
 
 ## How to Contribute
 
