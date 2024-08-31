@@ -75,6 +75,14 @@ The folder structure is based on types of components. Each component type consis
 └── exampleButton3.js
 ```
 
+## Documentation
+
+### **Component-Specific Documentation**
+
+For each component, you can include a README file or other documentation directly within the component’s folder to provide specific details about that component. This documentation can explain the component’s purpose, usage, and any specific instructions related to that component.
+
+**Example Documentation in `/components/Buttons/exampleButton/README.md`:**
+
 ## How to Contribute
 
 1. Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
