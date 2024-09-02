@@ -89,7 +89,7 @@ For each component, you can include a README file or other documentation directl
 ## How to Contribute
 
 1. Check out the [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
-2. Look at the open issues and select one. Issues labeled "good first issue" is always good issues to start with if you are new to open source.
+2. Look at the open issues and select one. Issues labeled "good first issue" is always good issues to start with if you are new to open source. But as stated before, if you want to add new components or contribute in another way, then dont be afraid to do so even tho there is no issue opened. 
 
 ## License
 
